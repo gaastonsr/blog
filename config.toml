@@ -1,0 +1,35 @@
+# Based on the following recommended configuration
+# https://github.com/LukasJoswiak/etch/wiki/Configuration#sample-configuration
+
+baseURL = "https://www.gaston.dev"
+title = "Gaston Sanchez"
+theme = "etch"
+languageCode = "en-us"
+enableInlineShortcodes = true # I don't know that this is used for.
+# https://github.com/LukasJoswiak/etch/wiki/Syntax-highlighting
+pygmentsUseClasses = true  # use class names instead of directly inserting color codes
+pygmentsCodeFences = true  # enable GitHub style code snippets
+
+[params]
+  description = "Tech blog from Gaston Sanchez"
+  copyright = "Copyright © 2020 Gaston Sanchez"
+  dark = "off"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
