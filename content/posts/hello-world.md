@@ -1,7 +1,7 @@
 ---
 title: "Hello, World!"
 date: 2020-08-30T15:30:16-05:00
-draft: true
+draft: false
 ---
 
 Welcome to my tech blog! here I'll be writing about tech topics that I'm
